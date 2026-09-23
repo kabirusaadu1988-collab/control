@@ -23,7 +23,8 @@ setup(
         ],
     },
     entry_points={
-        'console_scripts': [
+        'console_scripts': ['controller = control.control:main',
+'state_estimator = control.state_estimator:main',
         ],
     },
 )
